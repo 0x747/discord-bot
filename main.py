@@ -6,6 +6,7 @@ import datetime
 intents = discord.Intents.default()
 intents.message_content = True 
 
+# You may change the command prefix or add new ones here
 bot = commands.Bot(command_prefix=[">"], intents=intents)
 
 @bot.event
@@ -19,6 +20,7 @@ async def main() -> None:
         for extension in extensions:
             await bot.load_extension(extension)
 
+        # Add you bot token here
         await bot.start("")
 
 asyncio.run(main())
