@@ -11,6 +11,8 @@
 
 # Prerequisites
 
+A Linux based system is required to run the bot. Windows users can use WSL.
+
 ## Create a new bot
 
 
